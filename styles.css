@@ -210,6 +210,7 @@ display: flex;
   height: 5px;
   background-image: linear-gradient(to right, #eebe87, rgb(40, 40, 40));
  margin-right: 25%;
+ margin-bottom: 25px;
   
 }
 
@@ -217,8 +218,8 @@ display: flex;
   border: 0;
   height: 5px;
   background-image: linear-gradient(to right, rgb(40, 40, 40) , #eebe87);
- margin-left: 25%;
-
+  margin-left: 25%;
+  margin-bottom: 25px;
 }
 
 
