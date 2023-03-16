@@ -207,14 +207,7 @@ display: flex;
   border-radius: 8px;
 }
 
-.gradient-line-container-left {
-  width: calc(100% + 20%);
-  margin-left: -19%;
-}
-.gradient-line-container-right {
-  width: calc(100% + 20%);
-  margin-left:19%;
-}
+
 
 .gradient-line-left,
 .gradient-line-right {
