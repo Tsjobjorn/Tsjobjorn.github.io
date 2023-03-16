@@ -1,0 +1,262 @@
+header {
+  background: linear-gradient(to bottom, #222, #444);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  color: #b9b9b9;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 4px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+
+
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: rgb(40 , 40, 40);
+}
+
+.nav-link.active {
+  background: linear-gradient(to top,rgba(143, 143, 143, 0.3), transparent); 
+}
+
+
+.nav-link {
+  color: #b9b9b9;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #eebe87;
+}
+
+.nav-link:hover::before {
+  opacity: 1;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(143, 143, 143, 0.3), transparent);
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+body {
+  background-color: rgb(40 , 40, 40);
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.about-section {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 80px auto;
+  text-align: left;
+}
+
+.profile-image-container {
+  flex: 0 0 200px;
+  margin-right: 40px;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-section h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  color: #b9b9b9;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(85, 85, 85, 0.384);
+  text-align: center;
+  padding: 5px;
+}
+
+footer hr {
+  margin-top: 0;
+}
+
+footer p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(107, 107, 107);
+}
+
+
+
+.map-container {
+margin-top: 20px;
+margin-bottom: 50px;
+width: 400px;
+height: 300px;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+position: relative;
+}
+
+
+
+
+
+
+.contact-info h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  color: #b9b9b9;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  margin-bottom: 10px;
+
+}
+
+.contact-info p {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-right: 30px;
+}
+
+
+
+
+.project-container {
+  display: flex;
+  align-items: center;
+  max-width: 65%;
+  margin-top: 8%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.firstProject-image-container {
+display: flex;
+
+
+}
+.fpImageOne-image-container,
+.fpImageTwo-image-container {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.firstProject-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 450px; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.gradient-line-left {
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #eebe87, rgb(40, 40, 40));
+ margin-right: 25%;
+  
+}
+
+.gradient-line-right {
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, rgb(40, 40, 40) , #eebe87);
+ margin-left: 25%;
+
+}
+
+
+
+
+.project-text h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  color: #b9b9b9;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-text p {
+
+
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-right: 20px;
+  flex: 0 0 20px;
+
+}
+
+
+.project-link {
+  color: #eebe87;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 1px solid #eebe87;
+  border-radius: 4px;
+}
+
+.project-link:hover {
+  color: #fff; 
+}
